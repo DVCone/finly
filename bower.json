@@ -1,0 +1,25 @@
+{
+  "name": "finly",
+  "description": "tugas",
+  "main": "index.js",
+  "authors": [
+    "dvcone <dani2014riau@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "homepage": "https://github.com/DVCone/finly",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0.0-beta"
+  }
+}
