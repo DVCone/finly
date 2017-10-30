@@ -1,4 +1,7 @@
-body {
-    background-color: black;
-    color: white;
-}
+@import "variabel";
+
+@import "global";
+
+@import "main-header";
+
+@import "service";
