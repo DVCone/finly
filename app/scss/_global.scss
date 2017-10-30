@@ -20,4 +20,20 @@ body {
     font-size: 36px;
     color: $c-b;
     font-weight: 600;
+
+    @media screen and (max-width: 575px) {
+        font-size: 28px;
+        line-height: 1.2;
+        margin-top: 15px;
+    }
+}
+.clearfix {
+    &::before, &::after {
+        content: '';
+        clear: both;
+    }
+
+    &::after {
+        display: table;
+    }
 }

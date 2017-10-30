@@ -1,0 +1,70 @@
+#about-us {
+    padding: 100px 0;
+
+    .image-profile {
+        
+        .image {
+            height: 400px;
+            width: 400px;
+            border-radius: 100%;
+            background-image: url("../images/image-7.jpg");
+            background-position: 70%;
+            background-size: cover;
+        }
+    }
+    .content {
+        padding-left: 60px;
+
+        .title_section {
+            margin-bottom: 30px;
+        }
+        .desc_section {
+            margin-bottom: 50px;
+        }
+        p {
+            font-weight: 500;
+            line-height: 1.8;
+            letter-spacing: 0.5px;
+        }
+        .author {
+            margin-top: 60px;
+            img {
+                float: left;
+                width: 60px;
+                border-radius: 100%;
+                height: 60px;
+                margin-right: 15px;
+            }
+            h5 {
+                color: $c-b;
+                font-weight: 600;
+                padding-top: 10px;
+
+                span {
+                    font-weight: 400;
+                    display: block;
+                    margin-top: 5px;
+                    font-size: 14px;
+                    color: $c-content;
+                }
+            }
+        }  
+    }
+    .statistic {
+        margin-top: 180px;
+        text-align: center;
+
+        h5 {
+            font-size: 68px;
+            color: $c-b;
+            display: block;
+
+            span {
+                font-size: 15px;
+                display: block;
+                color: $c-content;
+                margin-top: 10px;
+            }
+        }
+    }
+}
