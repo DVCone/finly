@@ -84,7 +84,7 @@ var runSequence = require('run-sequence');
   });
 
   gulp.task('fonts', function() {
-    return gulp.src('app/fonts/**/*')
+    return gulp.src('app/font/**/*')
     .pipe(gulp.dest('dist/fonts'))
   })
 
